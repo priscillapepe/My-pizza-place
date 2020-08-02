@@ -43,3 +43,13 @@
 .card-button:hover{
     opacity: 0.9;
 }
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(../pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    background-attachment: fixed;
+    filter: blur;
+}
