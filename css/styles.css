@@ -16,12 +16,12 @@
     text-align: center;
     color: lawngreen;
 }
-#animate{
+/* #animate{
     width: 20px;
     height: 20px;
     position: absolute;
-    background: red;
-}
+    background:blue;
+} */
 #card{
     box-shadow: silver;
     max-width: 300px;
