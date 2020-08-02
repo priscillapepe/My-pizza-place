@@ -1,4 +1,4 @@
-*{
+h1,h2{
     align-items: center;
     font-family: cursive;
     font-weight: bolder;
@@ -6,22 +6,11 @@
     font-size: large;
     font-style: inherit
 }
-/* p{
-    text-align: center;
-    font-style: inherit;
-    color: greenyellow;
-    font-size: large;
-} */
+
 .image{
     text-align: center;
     color: lawngreen;
 }
-/* #animate{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    background:blue;
-} */
 #card{
     box-shadow: silver;
     max-width: 300px;
@@ -34,7 +23,7 @@
     outline: 0;
     padding :10px;
     color: white;
-    background-color: violet;
+    background-color: blue;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -51,5 +40,4 @@ body {
     height: fit-content;
     align-items: center;
     background-attachment: fixed;
-    filter: blur;
 }
