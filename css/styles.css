@@ -1,12 +1,18 @@
-h1,h2{
-    align-items: center;
-    font-family: cursive;
-    font-weight: bolder;
-    color: yellowgreen;
+* {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(../pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    height: fit-content;
+    background-attachment: fixed;
+    color: lawngreen;
+    font-family: monospace;
     font-size: large;
-    font-style: inherit
+    font-style: inherit;
+    display: inline-flexbox;
+    align-items: center;
+    
 }
-
 .image{
     text-align: center;
     color: lawngreen;
@@ -31,13 +37,4 @@ h1,h2{
 }
 .card-button:hover{
     opacity: 0.9;
-}
-body {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(../pizza.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: fit-content;
-    height: fit-content;
-    align-items: center;
-    background-attachment: fixed;
 }

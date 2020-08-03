@@ -8,12 +8,12 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-
 <body>
     <div class="container-fluid">
         <h1>MY PIZZA PLACE</h1>
         <h1>Place your order</h1>
     </div>
+    <!-- about-us section -->
     <h2>About us</h2>
     <div class="image">
         <p>Below are different types of pizza images that we offer</p>
@@ -30,79 +30,197 @@
         </ol>
         </p>
     </div>
+    <!-- End of about-us section -->
+    <!-- Begginning of cart -->
     <div class="container-fluid">
+        <div class="responsive-form">
         <div class="row">
             <div id="card" class="col-md-3">
                 <img class="card-img-top" src="pizza1.jpeg" style="width: 70%">
                 <h1>Veggie</h1>
                 <p class="price">Ksh class="750"</p>
-                <
+                    <div class="row">
+                        <div class="col-24">
+                           <label for="topping">Topping</label>
+                           </div>
+                           <div class="col-74">
+                               <select id="topping" name="topping">
+                                   <option value="pepperoni">Pepperoni</option>
+                                   <option value="bacon">Bacon</option>
+                                   <option value="mushrooms">Mushrooms</option>
+                               </select>
+                            </div>
+                         </div>
+                         <div class="row">
+                                <div class="col-24">
+                                    <label for="crust">Crust</label>
+                                </div>
+                                <div class="col-74">
+                                    <select id="crust" name="crust">
+                                        <option value="gluten free">Gluten Free</option>
+                                        <option value="cripsy">Cripsy</option>
+                                        <option value="classic">Classic</option>
+                                    </select>
+                                </div>
+                            </div>
+                         </div>
+                    <div class="row">
+                        <div class="col-24">
+                            <label for="size">Size</label>
+                        </div>
+                        <div class="col-74">
+                            <select id="size" name="size">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
                 <p><button>Add to cart</button></p>
             </div>
             <div id="card" class="col-md-3">
                 <img class="card-img-top" src="pizza2.jpeg" style="width: 70%">
                 <h1>Napoletana</h1>
                 <p class="price">Ksh.900</p>
-                <p>Lorem Ipsum</p>
+                
+                    <div class="row">
+                        <div class="col-24">
+                           <label for="topping">Topping</label>
+                           </div>
+                           <div class="col-74">
+                               <select id="topping" name="topping">
+                                   <option value="pepperoni">Pepperoni</option>
+                                   <option value="bacon">Bacon</option>
+                                   <option value="mushrooms">Mushrooms</option>
+                               </select>
+                            </div>
+                         </div>
+                         <div class="row">
+                                <div class="col-24">
+                                    <label for="crust">Crust</label>
+                                </div>
+                                <div class="col-74">
+                                    <select id="crust" name="crust">
+                                        <option value="gluten free">Gluten Free</option>
+                                        <option value="cripsy">Cripsy</option>
+                                        <option value="classic">Classic</option>
+                                    </select>
+                                </div>
+                            </div>
+                         </div>
+                    <div class="row">
+                        <div class="col-24">
+                            <label for="size">Size</label>
+                        </div>
+                        <div class="col-74">
+                            <select id="size" name="size">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
                 <p><button>Add to cart</button></p>
             </div>
             <div id="card" class="col-md-3">
                 <img class="card-img-top" src="pizza3.jpeg" style="width: 70%">
                 <h1>Diavola</h1>
                 <p class="price">Ksh.1500</p>
-                <p>Lorem Ipsum</p>
+                <form action="action_page.php">
+                    <div class="row">
+                        <div class="col-24">
+                           <label for="topping">Topping</label>
+                           </div>
+                           <div class="col-74">
+                               <select id="topping" name="topping">
+                                   <option value="pepperoni">Pepperoni</option>
+                                   <option value="bacon">Bacon</option>
+                                   <option value="mushrooms">Mushrooms</option>
+                               </select>
+                            </div>
+                         </div>
+                         <div class="row">
+                                <div class="col-24">
+                                    <label for="crust">Crust</label>
+                                </div>
+                                <div class="col-74">
+                                    <select id="crust" name="crust">
+                                        <option value="gluten free">Gluten Free</option>
+                                        <option value="cripsy">Cripsy</option>
+                                        <option value="classic">Classic</option>
+                                    </select>
+                                </div>
+                            </div>
+                         </div>
+                    <div class="row">
+                        <div class="col-24">
+                            <label for="size">Size</label>
+                        </div>
+                        <div class="col-74">
+                            <select id="size" name="size">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
                 <p><button>Add to cart</button></p>
             </div>
             <div id="card" class="col-md-3">
                 <img class="card-img-top" src="pizza4.jpeg" style="width: 70%">
                 <h1>Frutti D'Mare</h1>
                 <p class="price">Ksh.3500</p>
-                <p>Lorem Ipsum</p>
+                    <div class="row">
+                        <div class="col-24">
+                           <label for="topping">Topping</label>
+                           </div>
+                           <div class="col-74">
+                               <select id="topping" name="topping">
+                                   <option value="pepperoni">Pepperoni</option>
+                                   <option value="bacon">Bacon</option>
+                                   <option value="mushrooms">Mushrooms</option>
+                               </select>
+                            </div>
+                         </div>
+                         <div class="row">
+                                <div class="col-24">
+                                    <label for="crust">Crust</label>
+                                </div>
+                                <div class="col-74">
+                                    <select id="crust" name="crust">
+                                        <option value="gluten free">Gluten Free</option>
+                                        <option value="cripsy">Cripsy</option>
+                                        <option value="classic">Classic</option>
+                                    </select>
+                                </div>
+                            </div>
+                         </div>
+                    <div class="row">
+                        <div class="col-24">
+                            <label for="size">Size</label>
+                        </div>
+                        <div class="col-74">
+                            <select id="size" name="size">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
                 <p><button>Add to cart</button></p>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <form action="action_page.php">
-            <div class="row">
-                <div class="col-24">
-                   <label for="topping">Topping</label>
-                   </div>
-                   <div class="col-74">
-                       <select id="topping" name="topping">
-                           <option value="pepperoni">Pepperoni</option>
-                           <option value="bacon">Bacon</option>
-                           <option value="mushrooms">Mushrooms</option>
-                       </select>
-                    </div>
-                 </div>
-                 <div class="row">
-                        <div class="col-24">
-                            <label for="crust">Crust</label>
-                        </div>
-                        <div class="col-74">
-                            <select id="crust" name="crust">
-                                <option value="gluten free">Gluten Free</option>
-                                <option value="cripsy">Cripsy</option>
-                                <option value="classic">Classic</option>
-                            </select>
-                        </div>
-                    </div>
-                 </div>
-            <div class="row">
-                <div class="col-24">
-                    <label for="size">Size</label>
-                </div>
-                <div class="col-74">
-                    <select id="size" name="size">
-                        <option value="small">Small</option>
-                        <option value="medium">Medium</option>
-                        <option value="large">Large</option>
-                    </select>
-                </div>
-            </div>
-        </form>
     </div>
+    <!-- End of cart section -->
     <!-- link to scripts -->
     <script src="script.js"><script>
     </body>
