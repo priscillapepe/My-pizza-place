@@ -63,7 +63,45 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div select form control></div>
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-24">
+                   <label for="topping">Topping</label>
+                   </div>
+                   <div class="col-74">
+                       <select id="topping" name="topping">
+                           <option value="pepperoni">Pepperoni</option>
+                           <option value="bacon">Bacon</option>
+                           <option value="mushrooms">Mushrooms</option>
+                       </select>
+                    </div>
+                 </div>
+                 <div class="row">
+                        <div class="col-24">
+                            <label for="crust">Crust</label>
+                        </div>
+                        <div class="col-74">
+                            <select id="crust" name="crust">
+                                <option value="gluten free">Gluten Free</option>
+                                <option value="cripsy">Cripsy</option>
+                                <option value="classic">Classic</option>
+                            </select>
+                        </div>
+                    </div>
+                 </div>
+            <div class="row">
+                <div class="col-24">
+                    <label for="size">Size</label>
+                </div>
+                <div class="col-74">
+                    <select id="size" name="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+        </form>
     </div>
     <!-- link to scripts -->
     <script src="script.js"><script>
