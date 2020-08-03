@@ -60,7 +60,7 @@ $(document).ready(function(){
                 }
                 else  {
                     prompt("Please enter your phone number to facilitate communication and faster delivery.")
-                    alert("Your order has been received and it will be delivered to " + location + " An additional 200/= will be charged for delivery.");
+                    alert("Your order has been received and it will be delivered to " + place + " An additional 100/= will be charged for delivery.");
                     alert(newOrder.order());
                     alert("Your bill is: " + newTotal.finalTotal());
                     alert("Thank you for shopping with us! Your Order will be arriving soon." )
