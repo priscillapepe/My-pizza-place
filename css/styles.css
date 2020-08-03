@@ -1,21 +1,30 @@
-* {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(../pizza.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: fit-content;
-    height: fit-content;
-    background-attachment: fixed;
-    color: lawngreen;
-    font-family: monospace;
-    font-size: large;
-    font-style: inherit;
-    display: inline-flexbox;
+.container{
     align-items: center;
-    
+
 }
-.image{
+*{
+    align-items: center;
+    font-family: cursive;
+    font-weight: bolder;
+    color: yellowgreen;
+    font-size: large;
+    font-style: inherit
+}
+p{
+    text-align: center;
+    font-style: inherit;
+    color: blue;
+    font-size: large;
+}
+.card-img-top{
     text-align: center;
     color: lawngreen;
+}
+#animate{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: red;
 }
 #card{
     box-shadow: silver;
@@ -29,7 +38,7 @@
     outline: 0;
     padding :10px;
     color: white;
-    background-color: blue;
+    background-color: violet;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -37,4 +46,14 @@
 }
 .card-button:hover{
     opacity: 0.9;
+}
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(../pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    background-attachment: fixed;
+    align-items: center;
 }
