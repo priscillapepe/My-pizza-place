@@ -1,10 +1,14 @@
-*{
+/* *{
     align-items: center;
     font-family: cursive;
     font-weight: bolder;
     color: yellowgreen;
     font-size: large;
     font-style: inherit
+} */
+h1{
+    color: blue;
+    text-align: center;
 }
 p{
     text-align: center;
@@ -15,12 +19,6 @@ p{
 .image{
     text-align: center;
     color: lawngreen;
-}
-#animate{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    background: red;
 }
 #card{
     box-shadow: silver;
