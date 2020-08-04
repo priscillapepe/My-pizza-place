@@ -190,9 +190,53 @@
         </div>
     </div>
     <!-- End of card section -->
-    <!-- form section -->
-    <!-- End of form section -->
-    <!-- Mailchimp section -->
+    <!-- Checkout cart section -->
+    <div class="cart">
+        <button type="button" class="btn btn-primary">
+            View Cart <i class="fa fa-shopping-cart"></i> <span class="badge badge-light">0</span>
+        </button>
+    </div>
+</div>
+        <div id="form-total">
+            <div class="total"></div>
+            <form id="checkoutForm">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="pickup" value="pickup">
+                    <label class="form-check-label" for="pickup">My pick up</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="delivery" value="delivery">
+                    <label class="form-check-label" for="delivery">Requesting for Delivery</label>
+                </div>
+                <div class="row my-4 hidden">
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <label for="inlineFormCustomSelectPref">Delivery place</label>
+                            <select name="address" id="inlineFormCustomSelectPref" class="form-control custom-select">
+                            <option selected>Choose...</option>
+                            <option value="">Nairobi</option>
+                            <option value="">Olympic lane</option>
+                            <option value="">Ngong lane plaza</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="specificAddress">Specific Address</label>
+                        <input type="text" class="form-control" name="specificAddress" id="specificAddress">
+                    </div>
+                    <div class="col-sm-3">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="+2547....">
+                    </div>
+                </div>
+            </form>
+            <button class="btn btn-warning text-white checkout-btn">CheckOut</button>
+        </div>
+    </div>
+</div>
+</div>
+    <!-- End of checkout cart section -->
+    <!-- Contact us -->
     <!-- Begin Mailchimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -229,12 +273,7 @@
     </form>
     </div>
     <!-- End of mailchimp section -->
-    <!-- Contact us  -->
-    <div class="container">
-        <div class="row">
-            
-        </div>
-    </div>
+    
     <!-- link to scripts -->
     <!-- Footer -->
     <footer>

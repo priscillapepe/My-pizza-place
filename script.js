@@ -54,7 +54,7 @@ $(document).ready(function(){
                 if(pizzaPick===2){
                 var location= prompt(" Where would your like your Pizza to be Delivered? ");
                 var locations =["Nairobi", "Olympic lane", "Ngong lane plaza"]
-                if((location !== locations[0]) && (location !== locations[1]) && (location !== locations[2]) && (location !== locations[3]) && (location !== locations[4]) && (location !== locations[5])){
+                if((location !== locations[0]) && (location !== locations[1]) && (location !== locations[2]) && (location !== locations[3]){
                     alert("Choose a location listed below")
                     alert(locations)
                 }
@@ -69,3 +69,6 @@ $(document).ready(function(){
         }
     })
 });
+// $(".open").on("click",function(){
+//     $(".popup, .popup-content").addClass("We have received your message");
+//   });
