@@ -1,42 +1,15 @@
 h1{
     color: blue;
     text-align: center;
+    
 
 }
-/* p{
-    text-align: center;
-    font-style: inherit;
-    color: greenyellow;
-    font-size: large;
-} */
+
 .image{
     text-align: center;
     color: lawngreen;
 }
-/* #card{
-    box-shadow: silver;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-wrap: flex;
-    justify-content: center;
-}
-.card-button {
-    border:white;
-    outline: 2px;
-    padding :10px;
-    color:blue;
-    background-color:black;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 15px;
-}
-.card-button:hover{
-    opacity: 0.9;
-} */
+
 body {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(../pizza.jpg);
     background-repeat: no-repeat;
@@ -48,15 +21,9 @@ body {
     text-align: center;
     overflow-x: none;
 }
-/* label{
-    padding: 10px 10px 10px 0;
-    display: inline-block;
-}
-.p{
-    text-align: center;
-} */
+
 #order{
-    background-color:burlywood;
+    color:lawngreen;
 }
 h4{
     color: white;
@@ -68,4 +35,7 @@ h4{
 button{
     text-align: center;
     color: darkblue;
+}
+ul{
+    text-align: center;
 }

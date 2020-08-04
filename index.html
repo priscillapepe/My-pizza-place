@@ -15,12 +15,12 @@
         Place your order</h1>
     </div>
     <!-- About us section -->
-    <h2>About us</h2>
+    <h2 class="about-us text-center text-light">About us</h2>
     <div class="image">
         <p>Below are different types of pizza images that we offer</p>
         <img src="different-pizza.jpg" alt="pizza images">
         <p>There are different types of pizza all over the country,they include:
-        <ol>
+        <ul>
             <li>Veggie pizza</li>
             <li>Pepperoni pizza</li>
             <li>Meat pizza</li>
@@ -28,7 +28,7 @@
             <li>BBQ chicken pizza</li>
             <li>Hawaiian pizza</li>
             <li>Buffalo pizza</li>
-        </ol>
+        </ul>
         </p>
     </div>
     <!-- End of about us section -->
@@ -55,7 +55,7 @@
                         <h2>Napoletana</h2>
                     </div>
                     <div class="card-body">
-                        <img class="card-img-top" src="pizza1.jpeg" style="width: 100%">
+                        <img class="card-img-top" src="pizza2.jpeg" style="width: 100%">
                         <p class="price">Ksh 900</p>
                     </div>
                     <div class="card-footer">
@@ -69,7 +69,7 @@
                         <h2>Frutti D'Mare</h2>
                     </div>
                     <div class="card-body">
-                        <img class="card-img-top" src="pizza1.jpeg" style="width: 100%">
+                        <img class="card-img-top" src="pizza5.jpeg" style="width: 100%">
                         <p class="price">Ksh2000</p>
                     </div>
                     <div class="card-footer">
@@ -84,7 +84,7 @@
                         <h2>Diavola</h2>
                     </div>
                     <div class="card-body">
-                        <img class="card-img-top" src="pizza1.jpeg" style="width: 100%">
+                        <img class="card-img-top" src="pizza4.jpeg" style="width: 100%">
                         <p class="price">Ksh1500</p>
                     </div>
                     <div class="card-footer">
@@ -96,7 +96,7 @@
     </div>  
     <br><br>
     <div id="order">
-        <h4><strong>Order for your pizza</strong></h4>
+        <h4 class="order text-center"><strong>Order for your pizza</strong></h4>
         <form class="col-sm-6 offset-sm-3 text-center">
             <div id="flavour">
                 <label for="flavour">Choose your Flavour:</label>
@@ -157,15 +157,15 @@
                 <input id="number" type="number" value="1" class="form-control">
             </div>
         </form>
-        <button id="submit" class="btn btn-warning">Submit</button>
         <div>
-             <button type="delivery" id="btn" onclick="order()" label="">Delivery</button>
-        </div>
-        <div>
-            <button class="btn click" id="pick">Pick Up</button>
-        </div>
-</div>
-</div>
+                <button type="submit" id="btn" onclick="order()" label="">Submit</button>
+                 <button type="delivery" id="btn" onclick="order()" label="">Delivery</button>
+
+            </div>
+            <div>
+                
+                <button class="btn click" id="pick">Pick Up</button>
+            </div>
     
     <!-- link to scripts -->
     <!-- Footer -->
