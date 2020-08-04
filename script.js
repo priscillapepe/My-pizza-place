@@ -1,56 +1,56 @@
-// $(document).ready(function(){
-//     $("button#submit").submit(function(event){
-//         event.preventDefault();
-//         function buyNow(size, crust, topping, quantity) {
-//                 this.size = size;
-//                 this.prize = 0;
-//                 this.crust = crust;
-//                 this.topping = topping;
-//                 this.quantity = quantity;
-//                 size = ["small", "medium", "large"];
-//                 crust = ["Cripsy", "Stuffed", "GltenFree"];
-//                 topping = ["Pepperoni", "Bacon", "Mushrooms"];
-//                 quantity = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
-//             }
+// // $(document).ready(function(){
+// //     $("button#submit").submit(function(event){
+// //         event.preventDefault();
+// //         function buyNow(size, crust, topping, quantity) {
+// //                 this.size = size;
+// //                 this.prize = 0;
+// //                 this.crust = crust;
+// //                 this.topping = topping;
+// //                 this.quantity = quantity;
+// //                 size = ["small", "medium", "large"];
+// //                 crust = ["Cripsy", "Stuffed", "GltenFree"];
+// //                 topping = ["Pepperoni", "Bacon", "Mushrooms"];
+// //                 quantity = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+// //             }
         
-//         var size = $("#size option:selected").val();
-//         var crust = $("#crust option:selected").val();
-//         var topping = $("#topping option:selected").val();
-//         var quantity = $("#quantity").val();
-//         var totalPrice = [];
+// //         var size = $("#size option:selected").val();
+// //         var crust = $("#crust option:selected").val();
+// //         var topping = $("#topping option:selected").val();
+// //         var quantity = $("#quantity").val();
+// //         var totalPrice = [];
         
-//         alert("your total price of the order is")
+// //         alert("your total price of the order is")
        
-//     });
-    // buyNow.prototype.Price = function(){
-    //     if(this.size === size[0]){
-    //         this.price += 400;
-    //     }
-    //     else if(this.size === size[1]){
-    //         this.size += 600;
-    //     }
-    //     else if(this.size === size[2]){
-    //         this.size += 800;
-    //     }
-    //     if(this.crust === crust[0]){
-    //         this.crust += 200;
-    //     }
-    //     else if(this.crust === crust[1]){
-    //         this.crust += 250;
-    //     }
-    //     else if(this.crust === crust[2]){
-    //         this.crust += 300
-    //     }
-    //     if(this.topping === topping[0]){
-    //         this.topping += 150
-    //     }
-    //     else if(this.topping === topping[1]){
-    //         this.topping += 200
-    //     }
-    //     else if(this.topping === topping[2]){
-    //         this.topping +=250
-    //     }
-    //     return this.price
+// //     });
+//     // buyNow.prototype.Price = function(){
+//     //     if(this.size === size[0]){
+//     //         this.price += 400;
+//     //     }
+//     //     else if(this.size === size[1]){
+//     //         this.size += 600;
+//     //     }
+//     //     else if(this.size === size[2]){
+//     //         this.size += 800;
+//     //     }
+//     //     if(this.crust === crust[0]){
+//     //         this.crust += 200;
+//     //     }
+//     //     else if(this.crust === crust[1]){
+//     //         this.crust += 250;
+//     //     }
+//     //     else if(this.crust === crust[2]){
+//     //         this.crust += 300
+//     //     }
+//     //     if(this.topping === topping[0]){
+//     //         this.topping += 150
+//     //     }
+//     //     else if(this.topping === topping[1]){
+//     //         this.topping += 200
+//     //     }
+//     //     else if(this.topping === topping[2]){
+//     //         this.topping +=250
+//     //     }
+//     //     return this.price
     $(document).ready(function () {
         $("button#sumbmit").click(function (event){
         event.preventDefault()
@@ -86,4 +86,3 @@
     })
     
     });
-   
